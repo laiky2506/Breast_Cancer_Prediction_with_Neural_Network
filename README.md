@@ -14,7 +14,7 @@ In this project, the neural network model is built with TensorFlow Keras functio
 * sklearn.preprocessing
 
 ## STEP 1: Prepare that data
-I import numpy and pandas in order to extract data from the csv file. After import the data, I check the data with pandas.DataFrame.info method in order to find out is there any missing value, also to confirm the data types. After inspection, there is a column name "Unnamed: 32" with no row value. I drop this column using pandas.DataFrame.drop method. The data is complete without missing value and the features are in float64 data type.
+Numpy and pandas imported in order to extract data from the csv file. After import the data, the data was inspected with pandas.DataFrame.info method in order to find out is there any missing value, also to confirm the data types. After inspection, there is a column name "Unnamed: 32" with no row value. This column was dropped using pandas.DataFrame.drop method. The data is complete without missing value and the features are in float64 data type.
 
 ## STEP 2: Split the data into features and label
 After inpection of the data. The label for this model is column "diagnosis". The "diagnosis" column contain data with data type of string. There are only 2 unique value where "M" represent malignant and 'B' represent benign. I prepare the label with One-hot encoding using pandas.get_dummies method. 
