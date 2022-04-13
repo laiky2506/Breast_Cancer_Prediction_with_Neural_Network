@@ -62,7 +62,7 @@ model.summary()
 #start the iteration
 
 callback = tf.keras.callbacks.EarlyStopping(patience=5)
-model.compile(optimizer='adam',loss='sparse_categorical_crossentropy',metrics=['accuracy'])
+model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
 history = model.fit(x_train,y_train,validation_data=(x_test,y_test),batch_size=32,epochs=128,callbacks=[callback])
 
 #%%
