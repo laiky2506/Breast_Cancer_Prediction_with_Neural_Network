@@ -32,4 +32,4 @@ The model trained by using batch size of 32 with the epoch of 128. EarlyStopping
 ## RESULT
 Model accuracy shown in the following graph:
 
-!(modelaccuracy.png)
+![Model Accuracy!](/modelaccuracy.png "Model Accuracy")
