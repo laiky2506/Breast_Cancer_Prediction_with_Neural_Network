@@ -1,7 +1,7 @@
 # Breast Cancer Prediction with Neural Network
 Prediction of Breast Cancer diagnosis based on Breast Cancer Wisconsin (Diagnostic) Data Set
 
-### Introduction
+## Introduction
 This is a project assigned during the Deep Learning with Python MUP-AI05 course, one of the course for AI05 bootcamp organized by Selangor Human Resource Development Centre (SHRDC) on 13 April 2022. The data used in this project is obtained from Breast Cancer Wisconsin (Diagnostic) Data Set (link: [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) ). The data is originally in CSV format, I do include this file in this repository, you can check the file from the file list.
 
 ## STEP 1: Prepare that data
@@ -29,7 +29,7 @@ In this step, the train and test data prepared using train_test_split method fro
 ## STEP 4: Training of model
 The model trained by using batch size of 32 with the epoch of 128. EarlyStopping with a patience of 5 added to the training, which cause the training stopped at epoch number 14/128.
 
-## RESULT
+## Result
 Model accuracy shown in the following graph:
 
 ![Model Accuracy!](/modelaccuracy.png "Model Accuracy")
