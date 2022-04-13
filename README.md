@@ -4,6 +4,15 @@ Prediction of Breast Cancer diagnosis based on Breast Cancer Wisconsin (Diagnost
 ## Introduction
 This is a project assigned during the Deep Learning with Python MUP-AI05 course, one of the course for AI05 bootcamp organized by Selangor Human Resource Development Centre (SHRDC) on 13 April 2022. The data used in this project is obtained from Breast Cancer Wisconsin (Diagnostic) Data Set (link: [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) ). The data is originally in CSV format, I do include this file in this repository, you can check the file from the file list.
 
+## Methodology
+In this project, the neural network model is built with TensorFlow Keras functional API framework. Modules used in this project include:
+* numpy
+* pandas
+* tensorflow
+* matplotlib.pyplot
+* sklearn.model_selection.train_test_split
+* sklearn.preprocessing
+
 ## STEP 1: Prepare that data
 I import numpy and pandas in order to extract data from the csv file. After import the data, I check the data with pandas.DataFrame.info method in order to find out is there any missing value, also to confirm the data types. After inspection, there is a column name "Unnamed: 32" with no row value. I drop this column using pandas.DataFrame.drop method. The data is complete without missing value and the features are in float64 data type.
 
