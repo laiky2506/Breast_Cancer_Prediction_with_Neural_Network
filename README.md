@@ -2,7 +2,7 @@
 Prediction of Breast Cancer diagnosis based on Breast Cancer Wisconsin (Diagnostic) Data Set
 
 ## Introduction
-This is a project assigned during the Deep Learning with Python MUP-AI05 course, one of the course for AI05 bootcamp organized by Selangor Human Resource Development Centre (SHRDC) on 13 April 2022. The data used in this project is obtained from Breast Cancer Wisconsin (Diagnostic) Data Set (link: [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) ). The data is originally in CSV format, I do include this file in this repository, you can check the file from the file list.
+This is a project assigned during the Deep Learning with Python MUP-AI05 course, one of the course for AI05 bootcamp organized by Selangor Human Resource Development Centre (SHRDC) on 13 April 2022. The data used in this project is obtained from Breast Cancer Wisconsin (Diagnostic) Data Set (link: [https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) ). The data is originally in CSV format, this file is included in this repository, you can check the file from the file list.
 
 ## Methodology
 In this project, the neural network model is built with TensorFlow Keras functional API framework. Modules used in this project include:
