@@ -1,4 +1,4 @@
-# Breast_Cancer_Prediction_with_Neural_Network
+# Breast Cancer Prediction with Neural Network
 Prediction of Breast Cancer diagnosis based on Breast Cancer Wisconsin (Diagnostic) Data Set
 
 ### Introduction
